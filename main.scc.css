@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url("image/cesar-couto.jpg");
+    background-size: cover;
+}
+
+.game-container {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.fruit {
+    width: 40px;
+    position: absolute;
+    cursor: pointer;
+}
